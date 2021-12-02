@@ -41,8 +41,8 @@ posx = AnchoScreen // 2 - 320 // 2
 posy = AltoScreen // 2 - 170 // 2
 centro = "340x440"+"+"+str(posx)+"+"+str(posy)
 Ventana.geometry(centro)
-Ventana.iconbitmap('sb.ico')
-fondo=PhotoImage(file="fondo.png")
+Ventana.iconbitmap("sb.ico")
+fondo=PhotoImage(file="../Imagenes/fondo.png")
 LblFondo=Label(Ventana,image=fondo).place(x=0,y=0)
 
 #******************* Controles de nombre y password de usuario

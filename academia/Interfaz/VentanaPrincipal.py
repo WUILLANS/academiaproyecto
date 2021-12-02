@@ -7,7 +7,7 @@ def ManUsuarios():
     os.system("MantenimientoUsuarios.py")
 
 def FuncionSalir():
-    Opcion=messagebox.askyesno(title="Confirmar",message="Está seguro de salir?")
+    Opcion=messagebox.askyesno(title="Confirmar",message="Está seguro que desea salir?")
     if Opcion==True:
         Principal.destroy()
 
